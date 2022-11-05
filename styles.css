@@ -1,0 +1,73 @@
+/* styling the div of the main body */
+
+.general_body {
+    width: 60%;
+    margin: auto;
+    background-color: aliceblue;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* styling the h1 tags */
+h1{
+    text-decoration: dotted;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.first {
+    margin: 20px 20px 0 20px;
+    padding: 5px;
+}
+
+/* styling the first segment of the body */
+.food, .about {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* styling the table */
+table, td, th {
+    margin: 20px;
+    border-collapse: collapse;
+    border: 2px solid grey;
+    row-gap: 20px;
+}
+
+th {
+    height: 50px;
+}
+
+td:nth-child(3) {
+    width: 55%;
+}
+
+/* styling the steps */
+
+li {
+    margin-bottom: 10px;
+}
+
+/* styling the images */
+
+img {
+    /* size: 20px; */
+    margin: 70px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pics {
+    display: inline-block;
+}
+
+.pics div {
+    display: inline-block;
+    height: 50vh;
+    width: 35%;
+    margin: 50px;
+    background-color: rgb(236, 236, 236);
+    border-radius: 50%;
+}
